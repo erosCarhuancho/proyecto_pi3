@@ -1,0 +1,3 @@
+# {{ url_for('login') }}
+env/
+**/src/__pycache__/
