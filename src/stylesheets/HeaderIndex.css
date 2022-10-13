@@ -1,0 +1,27 @@
+.HeaderIndex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    background-color: #282A35; /*hsl(230.77,13.98%,18.24%)*/
+    padding: 0.8rem 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10px;
+}
+
+
+.HeaderIndexLogo{
+    display: flex;
+    align-items: 1rem;
+	width: min(50vw, 200px);
+}
+
+.HeaderIndexUserImage{
+    display: flex;
+    align-items: 1rem;
+    right: 1em;
+    border-radius: 50%;
+}
